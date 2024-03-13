@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    justify-content: space-evenly;
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+    position: sticky;
+    z-index: 99999;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.headericon {
+    max-height: 100%;
+    width: 60px;
+    object-fit: cover;
+    margin-right: 0;
+}
+
+.leftheader {
+    display: flex;
+    /* gap: 10px; */
+}
+
+.headertext {
+    color: white;
+    margin: auto;
+    margin-left: 0px;
+}
+
+.header-links {
+    display: flex;
+    gap: 24px;
+    list-style-type: none;
+    margin-right: 26px;
+}
+
+.header a {
+    text-decoration: none;
+    color: white;
+    font-family: Optima;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.container {
+    /* padding-top: 50px; */
+    /* height: 50px; */
+    display: flex;
+    flex-direction: column;
+    /* background-color: red; */
+    flex-grow: 1;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    /* gap: 200px; */
+}
+
+.section1 {
+    height: 700px;
+    display: flex;
+    height: auto;
+    justify-content: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-image: url(./images/junwugif.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-weight: 900;
+    align-items: flex-end;
+}
+
+.box1 {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    background: rgb(172, 7, 227) no-repeat;
+    background-size: cover;
+    opacity: 70%;
+    width: 700px;
+    height: 200px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.box1 button {
+    font-family: sans-serif;
+    color: white;
+    background-color: black;
+    border: 3px solid purple;
+    border-radius: 3px;
+    padding: 3px 7px;
+    align-items: center;
+}
+
+.footer {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    padding: 19px;
+}
