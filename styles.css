@@ -48,7 +48,7 @@ body {
     margin-right: 26px;
 }
 
-.header a {
+a {
     text-decoration: none;
     color: white;
     font-family: Optima;
@@ -69,7 +69,7 @@ body {
 }
 
 .section1 {
-    height: 700px;
+    height: 600px;
     display: flex;
     height: auto;
     justify-content: center;
@@ -84,10 +84,16 @@ body {
     align-items: flex-end;
 }
 
+.jinwu {
+    margin-bottom: auto;
+    height: 75px;
+    width: 100px;
+}
+
 .box1 {
     border-radius: 10px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     background: rgb(172, 7, 227) no-repeat;
     background-size: cover;
     opacity: 70%;
@@ -97,6 +103,8 @@ body {
     text-align: center;
     align-items: center;
     justify-content: center;
+    gap: 16px;
+    padding: 12px;
 }
 
 .box1 button {
@@ -107,6 +115,117 @@ body {
     border-radius: 3px;
     padding: 3px 7px;
     align-items: center;
+    margin: auto;
+}
+
+.section2 {
+    display: flex;
+    height: 500px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: blueviolet;
+}
+
+.box2 {
+    display: flex;
+    flex-direction: row;
+    gap: 26px;
+    height: 200px;
+}
+
+.outline {
+    width: 250px;
+    height: 250px;
+    border: 5px solid #000;
+}
+
+.outline img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.shadow .tect {
+    text-align: center;
+    font-weight: 600;
+}
+
+.shadow h3 {
+    text-decoration: underline;
+}
+
+.section3 {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    background-image: url(./images/jinwubk2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3 .tect3 {
+    width: 600px;
+    color: white;
+    font-family: cursive;
+}
+
+.section3 .box3 {
+    width: 600px;
+    margin-left: auto;
+    color: white;
+    margin-bottom: 0;
+}
+
+.box3 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 700;
+    align-self: flex-end;
+    font-family: "Marker Felt";
+}
+
+.section4 {
+    height: 375px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.container4 {
+    border-radius: 7px;
+    font-family: Roboto, sans-serif;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 125px;
+    background-color: #0787f8;
+    gap: 28px;
+}
+
+button.button4 {
+    /* align-self: flex-end; */
+    /* justify-self: flex-end; */
+    border: 1px solid rgb(255, 255, 255);
+    padding: 5px 20px;
+    background-color: #0787f8;
+    color: white;
+    border-radius: 8px;
+    font-weight: 700;
+}
+
+.text4 {
+    color: white;
+}
+
+.action {
+    font-weight: 800;
+    font-size: 22px;
 }
 
 .footer {
