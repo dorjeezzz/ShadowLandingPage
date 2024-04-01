@@ -132,6 +132,7 @@ a {
     flex-direction: row;
     gap: 26px;
     height: 200px;
+    flex-wrap: wrap;
 }
 
 .outline {
